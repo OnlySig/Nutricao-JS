@@ -18,7 +18,7 @@ botaoAdd.addEventListener("click", (event) => {
 
 function criaPaciente(nome, peso, altura, gordura) {
     if( peso >= 200 || peso <= 0 || altura >= 3 || altura <= 0 ) {
-        alert("vasco da gama")
+        alert("ERRO")
     } else {
         const novoPaciente = document.createElement('tr')
         novoPaciente.classList.add('paciente')
