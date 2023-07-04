@@ -43,7 +43,6 @@ function criaPaciente(event) {
         event.controlePeso.classList.remove('campo-invalido')
 
         const novoPaciente = criaTr(event)
-
         tabela.appendChild(novoPaciente)
 
     }
